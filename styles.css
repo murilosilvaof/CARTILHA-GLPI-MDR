@@ -3,12 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #0d1a2f;
+    background-color: #254160;
     color: #fff;
 }
 
 header {
-    background-color: #0d1a2f;
+    background-color: #254160;
     width: 100%;
     padding: 30px 0;
     text-align: center;
@@ -22,7 +22,7 @@ header {
 .title {
     font-size: 3em;
     font-weight: 700;
-    color: #fddb00;
+    color: #ffc400;
     margin: 0;
     text-transform: uppercase;
 }
@@ -35,8 +35,8 @@ header {
 }
 
 .intro-section {
-    background-color: #fddb00;
-    color: #0d1a2f;
+    background-color: #243850;
+    color: #ebebeb;
     padding: 20px 40px;
     width: 100%;
     text-align: center;
@@ -56,8 +56,8 @@ main {
 }
 
 .step-toggle {
-    background-color: #1a2a44;
-    color: #fddb00;
+    background-color: #243850;
+    color: #ffc400;
     border: none;
     padding: 20px;
     font-size: 1.5em;
@@ -110,7 +110,7 @@ main {
     margin-left: -50vw;
     margin-right: -50vw;
 
-    max-height: 2000px; /* Valor grande para comportar todo o conteúdo */
+    max-height: 2000px; /* Valor um pouquinho grande para comportar todo o conteúdo */
     padding: 20px;
 }
 
@@ -129,7 +129,7 @@ main {
     max-width: 100%;
     height: auto;
     margin-top: 15px;
-    border: 1px solid #2a3d5f;
+    border: 1px solid #254160;
     border-radius: 5px;
 }
 
@@ -146,7 +146,7 @@ main {
 
 .step-content li::before {
     content: "•";
-    color: #fddb00;
+    color: #ffc400;
     font-weight: bold;
     display: inline-block;
     width: 1em;
@@ -154,7 +154,7 @@ main {
 }
 
 footer {
-    background-color: #1a2a44;
+    background-color: #254160;
     color: #fff;
     text-align: center;
     padding: 25px;
@@ -163,18 +163,18 @@ footer {
     margin-top: 40px;
 }
 a {
-    color: #fddb00; /* Define a cor do link para o amarelo da cartilha */
+    color: #ffc400; /* Define a cor do link para o amarelo da cartilha */
     text-decoration: none; /* Remove o sublinhado padrão */
     font-weight: bold; /* Deixa o texto em negrito, como em outras partes da cartilha */
     transition: color 0.3s ease; /* Adiciona uma transição suave para o efeito de hover */
 }
 
 a:hover {
-    color: #ffef80; /* Cor um pouco mais clara ao passar o mouse por cima */
+    color: #02e1ffe5; /* Cor ao passar o mouse por cima do link dos sites*/
 }
 
 .logo {
-    width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+    width: 150px; /* tamanho da logo */
     height: auto;
     margin-bottom: 20px;
 }
@@ -182,4 +182,5 @@ a:hover {
 .footer-content {
     max-width: 900px;
     margin: 0 auto;
+    width: 100%;
 }
